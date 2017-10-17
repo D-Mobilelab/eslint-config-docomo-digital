@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-docomo-digital",
+  "version": "1.0.0",
+  "description": "Eslint configuration for Docomo Digital front-end team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Mobilelab/eslint-config-docomo-digital.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "lint",
+    "javascript",
+    "clean",
+    "code"
+  ],
+  "author": "Aurelio Merenda <aurelio.merenda@docomodigital.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D-Mobilelab/eslint-config-docomo-digital/issues"
+  },
+  "homepage": "https://github.com/D-Mobilelab/eslint-config-docomo-digital#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.3.2"
+  }
+}
