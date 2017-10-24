@@ -15,16 +15,10 @@ module.exports = {
 		"guard-for-in": 1,
 		// strict mode in global mode
 		"strict": [1, "global"],
-		// allow function in argument list
-		"prefer-arrow-callback": 0,
 		// allow restricted syntax
 		"no-restricted-syntax": 0,
 		// warn if function could be not return anything
 		"consistent-return": 1,
-		// [ES6] allow concatenation of string with variables
-		"prefer-template": 0,
-		// [ES6] object shorthand is not alloewd in ES5
-		"object-shorthand": 0,
 		// allow un-wrapped function
 		"wrap-iife": 1,
 		// plusplus for for cycle
@@ -37,16 +31,14 @@ module.exports = {
 		"quote-props": 1,
 		// error if you don't use brackets, also for one single expression
 		"curly": [2, "all"],
+		// warn for unuseless return
+		"no-useless-return": 1,
 
 		/*** VARIABLES ***/
 		// you can declare variables in more lines
 		"one-var": 0,
-		// you can use "var", not only "let" or "const"
-		"no-var": 0,
 		// warning if global variable, not defined before, is used
 		"no-undef": 1,
-		// warning if you don't use "const" for a variable never modified
-		"prefer-const": 1,
 		// warning if you declare a variable not at the top of a function scope
 		"vars-on-top": 1,
 		// you can re-assign a function parameter ( function(b){ b++; } )
@@ -84,5 +76,21 @@ module.exports = {
 		"max-len": 1,
 		// keyword could be not spaced
 		"keyword-spacing": 0,
+
+		/*** ES6 ***/
+		// you can use "var", not only "let" or "const"
+		"no-var": 0,
+		// object shorthand is not alloewd in ES5
+		"object-shorthand": 0,
+		// allow function in argument list
+		"prefer-arrow-callback": 0,
+		// warning if you don't use "const" for a variable never modified
+		"prefer-const": 1,
+		// allow parseInt and Number.parseInt
+		"prefer-numeric-literals": 0,
+		// warn for .apply instead of spread operator
+		"prefer-spread": 1,
+		// allow concatenation of string with variables
+		"prefer-template": 0,
 	}
 };
