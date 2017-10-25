@@ -33,6 +33,8 @@ module.exports = {
 		"curly": [2, "all"],
 		// warn for unuseless return
 		"no-useless-return": 1,
+		// warn if use regex without new Regex()
+		"no-control-regex": 1,
 
 		/*** VARIABLES ***/
 		// you can declare variables in more lines
