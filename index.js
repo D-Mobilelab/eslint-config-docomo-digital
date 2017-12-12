@@ -94,5 +94,7 @@ module.exports = {
 		"prefer-spread": 1,
 		// allow concatenation of string with variables
 		"prefer-template": 0,
+		// allow use of arguments instead of ...arguments
+		"prefer-rest-params": 0
 	}
 };
